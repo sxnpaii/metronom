@@ -1,0 +1,334 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+:root {
+    --f-Roboto: "Roboto", sans-serif;
+    --def-clr: #2551A1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #182033 -0.61%, #263552 52.32%, #192236 100%);
+    color: #fff;
+    width: 100%;
+}
+
+section {
+    /* max-width: 900px; */
+    margin: auto;
+}
+
+.swiper-wrapper {
+    max-width: 1320px;
+}
+
+section.header header nav.navbar .container {
+    max-width: 885px;
+}
+
+section.header header nav.navbar .container a.navbar-brand {
+    font-family: var(--f-Roboto);
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+section.header header nav.navbar .container .collapse ul.navbar-nav li.nav-item a.nav-link {
+    font-family: var(--f-Roboto);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    transition: 300ms;
+}
+
+section.header header nav.navbar .container .collapse ul.navbar-nav li.nav-item a.nav-link:hover {
+    background: #CBE2F0;
+    color: var(--def-clr);
+    transform: scale(1.1);
+}
+
+
+/* section.main .container .row .col {} */
+
+section.main .container .row .col .swiper {
+    /* margin: auto; */
+    padding: 0 50px 0 50px;
+    max-width: 960px;
+    min-height: 305px;
+    margin: auto;
+
+}
+
+section.main .container .row .col .swiper-wrapper {
+
+    min-height: 305px;
+    margin: auto;
+}
+
+@media (max-width:576px) {
+    section.main .container-fluid .row .col .swiper-wrapper {
+        width: 470px;
+    }
+
+}
+
+@media (max-width:553px) and (min-width:380px) {
+    section.main .container-fluid .row .col .swiper-wrapper {
+        width: 430px;
+    }
+
+}
+
+section.main .container .row .col .swiper-wrapper .swiper-slide {
+    background: #DBDBDB;
+    /* max-width: 830px; */
+    min-height: 305px;
+    color: var(--def-clr);
+
+}
+
+section.main .container .row .col .swiper-wrapper .swiper-slide h1 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 75px;
+    /* font-size: 23px; */
+
+
+
+}
+
+section.main .container .row .col .swiper-wrapper .swiper-slide h1 span {
+    font-weight: 400;
+}
+
+section.about .container .row .col {
+    max-width: 885px;
+    margin: auto;
+    display: flex;
+    margin-top: 17px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section.about .container .row .col .some_ab_us {
+    max-width: 542px;
+    min-height: 263px;
+    background: #fff;
+    color: #000;
+
+
+}
+
+section.about .container .row .col .some_ab_us h2 {
+    font-family: var(--f-Roboto);
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 18px; */
+    color: #2551A1;
+    margin: 40px 0 20px 37px;
+}
+
+section.about .container .row .col .some_ab_us p {
+    font-family: var(--f-Roboto);
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0 20px 26px 37px;
+}
+
+section.about .container .row .col .some_ab_us button.btn {
+    width: 100px;
+    height: 35px;
+    background: var(--def-clr);
+    font-family: var(--f-Roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin: 0 0 36px 40px;
+    border-radius: 0;
+    transition: 330ms;
+
+}
+
+section.about .container .row .col .some_ab_us button.btn:hover {
+    background: #011D44;
+    color: #fff;
+}
+
+section.about .container .row .col .meet_our_team {
+    width: 260px;
+    height: 263px;
+}
+
+section.about .container .row .col .meet_our_team a.btn {
+    width: 122px;
+    height: 122px;
+    background: #CBE2F0;
+    margin-top: 17px;
+    border-radius: 0;
+    transition: 330ms;
+    border: none;
+}
+
+section.about .container .row .col .meet_our_team a.btn i {
+    font-size: 30px;
+    padding: 25px 0 15px 0;
+    color: var(--def-clr);
+}
+
+section.about .container .row .col .meet_our_team a.btn h5 {
+    font-family: var(--f-Roboto);
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--def-clr);
+
+}
+
+section.about .container .row .col .meet_our_team a.btn:hover {
+    background: #011D44;
+    color: #fff;
+
+}
+
+section.about .container .row .col .meet_our_team a.contact.btn {
+    margin-left: 10px;
+}
+
+section.buy_theme .container .row .col {
+    max-width: 860px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 57px;
+    background: #F07321;
+    margin: 17px auto;
+}
+
+section.buy_theme .container .row .col h4 {
+    font-family: var(--f-Roboto);
+    font-style: normal;
+    font-weight: 700;
+}
+
+section.buy_theme .container .row .col p {
+    font-family: var(--f-Roboto);
+    font-weight: 400;
+}
+
+section.buy_theme .container .row .col button.btn {
+    width: 93px;
+    height: 35px;
+    background: #CF4900;
+    font-family: var(--f-Roboto);
+    font-weight: 400;
+    font-size: 10px;
+    border: none;
+    border-radius: 0;
+}
+
+section.psd_works .container .row .col {
+    max-width: 885px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section.psd_works .container .row .col .img {
+    position: relative;
+    width: 192px;
+    height: 193px;
+
+
+}
+
+section.psd_works .container .row .col .img a button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 192px;
+    height: 193px;
+    border: none;
+    background: #003e83;
+    opacity: 0;
+    color: #fff;
+    transition: 330ms;
+
+
+
+}
+
+section.psd_works .container .row .col .img a button i {
+    font-size: 30px;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+section.psd_works .container .row .col .img a button p {
+    position: absolute;
+    top: 113px;
+    left: 43px;
+    max-width: 100px;
+    text-transform: uppercase;
+    font-family: var(--f-Roboto);
+}
+
+section.psd_works .container .row .col .img a button:hover {
+    opacity: 0.5;
+}
+
+footer {
+    min-height: 151px;
+}
+
+footer .container .row .col {
+    max-width: 885px;
+    margin: auto;
+
+}
+
+footer .container .row .col .hr-line {
+    max-width: 885px;
+    height: 1px;
+    background: #2A344D;
+    margin: 35px auto 42px auto;
+}
+
+footer .container .row .col .footer {
+    justify-content: space-between;
+}
+
+footer .container .row .col .footer h6 {
+    font-family: var(--f-Roboto);
+    font-weight: 700;
+    font-size: 12px;
+
+}
+
+footer .container .row .col .footer p {
+    font-family: var(--f-Roboto);
+    font-weight: 700;
+    font-size: 12px;
+}
