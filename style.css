@@ -270,9 +270,26 @@ section.psd_works .container .row .col .img {
 
 }
 @media (max-width:576px) {
-    section.psd_works .container .row .col{
-        gap: 20px;
+    section.psd_works .container .row .col
+    {
+        row-gap: 15px;
         width: calc(100% / 12 * 6);
+        width: 110px;
+    }
+    section.psd_works .container .row .col .img a button{
+        /* width: 110px;     */
+    width: 100%;
+    }
+    
+}
+@media (max-width:427px) {
+    section.psd_works .container .row .col .img
+    {
+        row-gap: 15px;
+        /* width: 350px; */
+    }
+    section.psd_works .container .row .col .img a button{
+    width: 70%;
     }
     
 }
