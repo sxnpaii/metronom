@@ -179,7 +179,13 @@ section.about .container .row .col .meet_our_team {
     width: 260px;
     height: 263px;
 }
+@media (max-width:576px) {
+    section.about .container .row .col .meet_our_team{
+        margin: 30px auto;
+    }
 
+    
+}
 section.about .container .row .col .meet_our_team a.btn {
     width: 122px;
     height: 122px;
@@ -261,6 +267,14 @@ section.psd_works .container .row .col .img {
     height: 193px;
 
 
+
+}
+@media (max-width:576px) {
+    section.psd_works .container .row .col{
+        gap: 20px;
+        width: calc(100% / 12 * 6);
+    }
+    
 }
 
 section.psd_works .container .row .col .img a button {
